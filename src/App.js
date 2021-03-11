@@ -19,6 +19,7 @@ import BaiTapChonXe from './Components/StateDemo/BaiTapChonXe';
 import RenderWithMap from './Components/RenderWithMap/RenderWithMap';
 import BaiTapLayoutMap from './Components/RenderWithMap/BaiTapLayoutMap';
 import DanhSachSanPhamProps from './Components/Props/DemoProps/DanhSachSanPhamProps';
+import BT3Header from './Components/BaiTapThucHanhLayout/BT3Header';
 
 function App() {
   return (
@@ -31,7 +32,10 @@ function App() {
       {/* <BaiTapChonXe /> */}
       {/* <RenderWithMap /> */}
       {/* <BaiTapLayoutMap /> */}
-      <DanhSachSanPhamProps />
+      {/* <DanhSachSanPhamProps /> */}
+      <BT3Header />
+      <BT3Content />
+      <BT3Footer />
     </div>
   );
 }
