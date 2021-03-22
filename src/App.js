@@ -36,11 +36,11 @@ function App() {
       {/* <RenderWithMap /> */}
       {/* <BaiTapLayoutMap /> */}
       {/* <DanhSachSanPhamProps /> */}
-      <BT3Header />
+      {/* <BT3Header />
       <BT3Content />
-      <BT3Footer />
+      <BT3Footer /> */}
       {/* <Products /> */}
-      {/* <MatKinh /> */}
+      <MatKinh />
       {/* <BaiTapGioHangRedux /> */}
     </div>
   );
